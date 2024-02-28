@@ -1,0 +1,79 @@
+
+.a1{
+    background-color: rgba(0, 0, 255, 0.066);
+}
+
+.b1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.c2{
+    font-size: 25px;
+    color: rgb(160, 60, 247);
+    font-weight: 600;
+}
+
+
+
+svg{
+    font-size: 60px;
+}
+
+.profile{
+    padding: 40px 0px 40px 30px;
+    background: linear-gradient(to bottom, rgba(180, 41, 255, 0.727), rgba(43, 215, 246, 0.649));
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.profile-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: blue; */
+    gap: 20px;
+}
+
+.p-pic{
+    width: 120px;
+    height: 120px;
+    background-color: grey;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+.p-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+}
+
+.p-name{
+    font-weight: 600;
+}
+
+.cards{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-two{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.21);
+    justify-content: center;
+    align-items: center;
+}
